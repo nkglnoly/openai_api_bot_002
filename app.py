@@ -30,8 +30,8 @@ def communicate():
 
 
 # ユーザーインターフェイスの構築
-st.title("FuNak AI Assistant")
-st.write("ChatGPT APIを使ったチャットボットです。私が作った環境です")
+st.title("FNak AI Assistant")
+st.write("ChatGPT APIを使ったチャットボットです。私が作った専用環境です")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
 
